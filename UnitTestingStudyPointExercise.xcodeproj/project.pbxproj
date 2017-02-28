@@ -13,6 +13,8 @@
 		F2D1C3431E65B6DE001F6BC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2D1C3421E65B6DE001F6BC2 /* Assets.xcassets */; };
 		F2D1C3461E65B6DE001F6BC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D1C3441E65B6DE001F6BC2 /* LaunchScreen.storyboard */; };
 		F2D1C3511E65B6DE001F6BC2 /* UnitTestingStudyPointExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D1C3501E65B6DE001F6BC2 /* UnitTestingStudyPointExerciseTests.swift */; };
+		F2D1C35C1E661FC2001F6BC2 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D1C35B1E661FC2001F6BC2 /* ViewController2.swift */; };
+		F2D1C35E1E6621EC001F6BC2 /* ReimbursementTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D1C35D1E6621EC001F6BC2 /* ReimbursementTestCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		F2D1C34C1E65B6DE001F6BC2 /* UnitTestingStudyPointExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestingStudyPointExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2D1C3501E65B6DE001F6BC2 /* UnitTestingStudyPointExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingStudyPointExerciseTests.swift; sourceTree = "<group>"; };
 		F2D1C3521E65B6DE001F6BC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2D1C35B1E661FC2001F6BC2 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		F2D1C35D1E6621EC001F6BC2 /* ReimbursementTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReimbursementTestCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 			children = (
 				F2D1C33B1E65B6DE001F6BC2 /* AppDelegate.swift */,
 				F2D1C33D1E65B6DE001F6BC2 /* ViewController.swift */,
+				F2D1C35B1E661FC2001F6BC2 /* ViewController2.swift */,
 				F2D1C33F1E65B6DE001F6BC2 /* Main.storyboard */,
 				F2D1C3421E65B6DE001F6BC2 /* Assets.xcassets */,
 				F2D1C3441E65B6DE001F6BC2 /* LaunchScreen.storyboard */,
@@ -91,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				F2D1C3501E65B6DE001F6BC2 /* UnitTestingStudyPointExerciseTests.swift */,
+				F2D1C35D1E6621EC001F6BC2 /* ReimbursementTestCase.swift */,
 				F2D1C3521E65B6DE001F6BC2 /* Info.plist */,
 			);
 			path = UnitTestingStudyPointExerciseTests;
@@ -201,6 +207,7 @@
 			files = (
 				F2D1C33E1E65B6DE001F6BC2 /* ViewController.swift in Sources */,
 				F2D1C33C1E65B6DE001F6BC2 /* AppDelegate.swift in Sources */,
+				F2D1C35C1E661FC2001F6BC2 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2D1C35E1E6621EC001F6BC2 /* ReimbursementTestCase.swift in Sources */,
 				F2D1C3511E65B6DE001F6BC2 /* UnitTestingStudyPointExerciseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
